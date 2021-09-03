@@ -6,7 +6,20 @@ namespace OrientacaoObjetos
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            Leao objLeao = new Leao();
+            Felino f = objLeao;
+
+            if (objLeao is Felino)
+            {
+                objLeao.EntrarNaCaixa();
+            }
+
         }
+
+
     }
+
+
+
 }
